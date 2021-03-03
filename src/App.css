@@ -37,7 +37,20 @@
 	}
 }
 .players {
-	width: 100%;
+	width: 70%;
+	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+}
+.card {
+	border: 1px solid black;
+	margin: 20px;
+	max-width: 300px;
+}
+h4 {
+	width: 200px;
+	margin: 0 0 0 0;
+}
+img {
+	max-width: 300px;
 }
